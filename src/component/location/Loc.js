@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import { makeStyles } from '@material-ui/core/styles';
-import themesection from './theme';
+import { themeOptions } from '../../theme_2';
 const useStyles = makeStyles({
     main: {
     margin: '10px 10px',
@@ -48,7 +48,7 @@ export default function SelectTextFields() {
     >
       
 <div className={classes.main}>
-<h1 className={themesection.palette.primary.main}>Where is your property located?</h1>
+<h1 >Where is your property located?</h1>
 <p>An accurate location helps you connect with the right buyers</p>
 <div>
 <div>
